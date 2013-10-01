@@ -65,6 +65,11 @@ typedef void (^URBSegmentedControlBlock)(NSInteger index, URBSegmentedControl *s
 @property (nonatomic, assign) BOOL showsGradient;
 
 /**
+ Valid inner shadow effect.
+ */
+@property (nonatomic, assign) BOOL showsInnerShadow;
+
+/**
  Padding between the segments and the base container view.
  */
 @property (nonatomic, assign) UIEdgeInsets segmentEdgeInsets;
